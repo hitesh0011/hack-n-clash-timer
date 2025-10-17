@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual Timer - Hack 'N' Clash</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex flex-col justify-center items-center h-screen bg-gradient-to-br from-gray-900 via-indigo-900 to-blue-900 text-white">
+
+  <div id="mainContent" class="text-center space-y-8">
+    <h1 class="text-6xl font-extrabold text-blue-400 drop-shadow-lg">
+      Hack 'N' Clash Timer
+    </h1>
+
+    <!-- Timer Display -->
+    <div id="timerDisplay"
+      class="text-7xl font-mono tracking-widest bg-white/10 px-12 py-6 rounded-2xl shadow-lg">
+      00 : 00 : 00
+    </div>
+
+    <!-- Controls -->
+    <div class="flex gap-6 justify-center">
+      <button id="startBtn" class="btn bg-green-500 hover:bg-green-600 px-6 py-2 rounded-lg font-semibold">
+        Start
+      </button>
+      <button id="pauseBtn" class="btn bg-yellow-500 hover:bg-yellow-600 px-6 py-2 rounded-lg font-semibold">
+        Pause
+      </button>
+      <button id="resetBtn" class="btn bg-red-500 hover:bg-red-600 px-6 py-2 rounded-lg font-semibold">
+        Reset
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
