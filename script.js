@@ -1,4 +1,5 @@
-let totalTime = 5; // Test time in seconds (replace with 2*60*60 for 2 hours)
+// let totalTime = 5;// Test time in seconds (replace with 2*60*60 for 2 hours)
+let totalTime = 2 * 2 * 60; // 2 hours in seconds
 let remainingTime = totalTime;
 let timerInterval = null;
 let isRunning = false;
@@ -70,4 +71,5 @@ resetBtn.addEventListener('click', () => {
 });
 
 // Initialize
+
 updateDisplay();
